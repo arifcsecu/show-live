@@ -1,0 +1,32 @@
+.logo {
+  max-width: 200px;
+}
+
+.social-icons a {
+  background-color: #1a1a1a;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-icons a.google {
+  background-color: #005eff;
+  font-weight: bold;
+}
+
+.btn-confirm {
+  background-color: #052EFD;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 100%;
+  padding: 10px 0;
+}

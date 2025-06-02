@@ -1,0 +1,26 @@
+.contact-section {
+  padding: 60px 20px;
+}
+.contact-section h5 {
+  margin-top: 20px;
+}
+.form-control,
+.form-select {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+}
+.form-control::placeholder {
+  color: #aaa;
+}
+.form-check-input {
+  background-color: #1a1a1a;
+  border-color: #555;
+}
+.btn-primary {
+  background-color: #0066ff;
+  border: none;
+}
+.social-icons i {
+  margin-right: 8px;
+}

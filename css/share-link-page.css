@@ -1,0 +1,51 @@
+.qr-box {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.qr-box img {
+  width: 277px;
+  height: 270px;
+}
+
+@media screen and (max-width: 575.99px) {
+  .qr-box img {
+    width: 100%;
+    height: auto;
+  }
+    
+}
+.form-control {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  color: #ccc;
+}
+.form-control:focus {
+  background-color: #1a1a1a;
+  color: #fff;
+  border-color: #555;
+  box-shadow: none;
+}
+.btn-share {
+  background-color: transparent;
+  border: 1px solid #FFFFFF14;
+  color: #052efd;
+}
+.btn-copy {
+  background: transparent;
+  border: none;
+  color: #ccc;
+}
+.btn-copy:hover {
+  color: white;
+}
+.dismiss {
+  margin-top: 1rem;
+  color: #052EFD;
+  cursor: pointer;
+}
+.dismiss:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,57 @@
+.form-control,
+.form-select {
+  background-color: #1f1f1f;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+}
+.section-title {
+  padding: 20px 0;
+  color: #052efd;
+  font-weight: 600;
+}
+
+.card-icons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.card-icons img {
+  height: 20px;
+}
+
+.checkbox-label {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.checkbox-label a {
+  color: #052efd;
+  text-decoration: none;
+}
+
+.checkbox-label a:hover {
+  text-decoration: underline;
+}
+
+.btn-confirm {
+  width: 100%;
+  border-radius: 30px;
+  background-color: #052efd;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-confirm:hover {
+  background-color: #052efd;
+}

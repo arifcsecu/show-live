@@ -1,0 +1,80 @@
+.section {
+  padding: 2rem;
+}
+
+.genre-text span {
+  color: #aaa;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.description {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.action-icons i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.action-label {
+  font-size: 13px;
+  margin-top: 4px;
+  color: #aaa;
+}
+
+.btn-purchase {
+  background-color: #052efd;
+  color: white;
+  border-radius: 78px;
+  padding: 10px 30px;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-purchase:hover {
+  background-color: #052efd;
+}
+
+.cast-text {
+  font-size: 13px;
+  color: #888;
+}
+
+.rating-stars i {
+  color: gold;
+}
+
+.heart-icon {
+  border: 1px solid #555;
+  padding: 6px 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+}
+
+.card {
+  background-color: transparent;
+}
+.card-text {
+  font-size: 0.95rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.custom-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 575.98px) {
+  .custom-card-img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}

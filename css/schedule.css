@@ -1,0 +1,142 @@
+.movie-title {
+  font-size: 2vw;
+  color: #fff;
+  text-wrap: wrap;
+}
+
+.movie-description {
+  font-size: 1.2vw;
+  color: #fff;
+  text-wrap: wrap;
+}
+
+.time-duration {
+  font-size: 1.5vw;
+  text-wrap: nowrap;
+}
+
+.img-poster {
+  width: 150px;
+  height: 12vw;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .movie-title {
+    font-size: 3vw;
+    color: #fff;
+    text-wrap: wrap;
+  }
+  .movie-description {
+    font-size: 1.4vw;
+    color: #fff;
+    text-wrap: wrap;
+  }
+
+  .time-duration {
+    font-size: 1.7vw;
+    text-wrap: wrap;
+  }
+
+  .img-poster {
+    max-width: 11vw;
+    height: 16vw;
+    object-fit: cover;
+  }
+}
+@media (max-width: 576px) {
+  .img-poster {
+    max-width: 11vw;
+    height: 22vw;
+    object-fit: cover;
+  }
+}
+
+.date-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding-bottom: 8px;
+}
+
+.date-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  min-height: 125px;
+  background-color: #1a1a1a;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 6px;
+  font-size: 13px;
+  border: 1px solid #2c2c2c;
+  flex-shrink: 0;
+}
+
+.date-box.active {
+  background-color: #0047ff;
+  color: white;
+}
+
+.date-box .date {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.scroll-arrow {
+  min-width: 40px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #0047ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.scroll-arrow:hover {
+  background-color: #0033cc;
+}
+
+/* Hide scrollbar (optional) */
+.date-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.date-scroll-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.location-bar {
+  background-color: #121212;
+  padding: 12px 16px;
+  border-bottom: 1px solid #222;
+}
+
+.location-bar h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.location-bar p {
+  font-size: 13px;
+  color: #aaa;
+  margin: 0;
+}
+
+.location-bar a {
+  color: #3f80ff;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.location-bar a:hover {
+  text-decoration: underline;
+}
