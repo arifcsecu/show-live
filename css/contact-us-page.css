@@ -1,26 +1,44 @@
-.contact-section {
+.contact-section
+{
   padding: 60px 20px;
+  color: #FFFFFF;
 }
-.contact-section h5 {
+
+h5
+{
+  font-size: 32px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.contact-section h5
+{
   margin-top: 20px;
 }
-.form-control,
-.form-select {
-  background-color: #1a1a1a;
-  border: 1px solid #333;
+
+.form-control, .form-select
+{
+  background-color: #141414;
+  border: 1px solid #262626;
   color: #fff;
 }
+
 .form-control::placeholder {
-  color: #aaa;
+  color: #999999 !important;
 }
+
 .form-check-input {
   background-color: #1a1a1a;
   border-color: #555;
 }
+
 .btn-primary {
   background-color: #0066ff;
   border: none;
 }
+
 .social-icons i {
   margin-right: 8px;
 }

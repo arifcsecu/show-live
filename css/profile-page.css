@@ -1,8 +1,19 @@
 .form-control,
 .form-select {
   background-color:  #292826;
-  color: #ccc;
+  color: #FFFFFF;
   border: none;
+}
+.form-control::placeholder,
+.form-select::placeholder {
+  color: #FFFFFF !important;
+  font-size: 16px;
+}
+
+.form-label {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .form-control:focus,
@@ -44,12 +55,12 @@
 }
 
 .btn-primary {
-  background-color: #1f1fff;
+  background-color: #052EFD;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #2f2fff;
+  background-color: #052EFD;
 }
 
 .eye-button 
@@ -57,4 +68,8 @@
   background-color:  #292826 !important;
   border: none;
   
+}
+.btn-primary{
+  background-color: #292826;
+  border: none;
 }

@@ -1,26 +1,26 @@
 .qr-box {
-  max-width: 600px;
+  max-width: 1080px;
   margin: auto;
   padding: 2rem;
   text-align: center;
 }
 
-.qr-box img {
+.qr-scan {
   width: 277px;
   height: 270px;
 }
 
 @media screen and (max-width: 575.99px) {
-  .qr-box img {
+  .qr-scan {
     width: 100%;
     height: auto;
   }
     
 }
 .form-control {
-  background-color: #1a1a1a;
+  background-color: #FFFFFF14;
   border: 1px solid #444;
-  color: #ccc;
+  color: #052EFD;
 }
 .form-control:focus {
   background-color: #1a1a1a;
@@ -32,6 +32,7 @@
   background-color: transparent;
   border: 1px solid #FFFFFF14;
   color: #052efd;
+  max-width: 200px !important;
 }
 .btn-copy {
   background: transparent;
@@ -48,4 +49,22 @@
 }
 .dismiss:hover {
   text-decoration: underline;
+}
+.text-primary
+{
+  color: #052EFD !important;
+}
+
+.search-text
+{
+
+  background-color: #FFFFFF14;
+  border: 1px solid #FFFFFF14;
+  color: #052EFD;
+  max-width: 1080px !important;
+}
+
+text-secondary
+{
+  color: #FFFFFFB2 !important;
 }

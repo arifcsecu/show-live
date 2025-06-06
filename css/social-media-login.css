@@ -1,5 +1,6 @@
 .logo {
-  max-width: 200px;
+  max-width: 354px;
+  max-height: 187px;;
 }
 
 .social-icons a {
@@ -17,7 +18,7 @@
 }
 
 .social-icons a.google {
-  background-color: #005eff;
+  background-color: #052EFD;
   font-weight: bold;
 }
 

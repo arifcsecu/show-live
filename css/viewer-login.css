@@ -1,5 +1,13 @@
 .logo {
-  max-width: 180px;
+  max-width: 354px;
+  max-height: 187px;
+}
+
+.btn {
+  border: 1px solid #052efd;
+  font-weight: 500;
+  border-radius: 5px !important;
+  
 }
 
 .role-btn {
@@ -10,28 +18,28 @@
 }
 
 .role-btn-outline {
-  border: 1px solid #052EFD;
-  color: #052EFD;
+  border: 1px solid #052efd;
+  color: #052efd;
   background: transparent;
 }
 
 .role-btn-outline:hover {
-  background-color: #052EFD;
+  background-color: #052efd;
   color: #fff;
 }
 
 .blue-btn {
-  background-color: #052EFD;
+  background-color: #052efd;
   border: none;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 50px;
   padding: 10px 0;
   width: 100%;
 }
 
 a.text-link {
-  color: #052EFD;
+  color: #052efd;
   text-decoration: none;
 }
 
@@ -40,6 +48,6 @@ a.text-link:hover {
 }
 
 .form-check-input:checked {
-  background-color: #052EFD;
-  border-color: #052EFD;
+  background-color: #052efd;
+  border-color: #052efd;
 }
