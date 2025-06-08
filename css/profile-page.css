@@ -1,22 +1,22 @@
-.form-control,
+main .form-control,
 .form-select {
   background-color:  #292826;
   color: #FFFFFF;
   border: none;
 }
-.form-control::placeholder,
+main .form-control::placeholder,
 .form-select::placeholder {
   color: #FFFFFF !important;
   font-size: 16px;
 }
 
-.form-label {
+main .form-label {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 16px;
 }
 
-.form-control:focus,
+main .form-control:focus,
 .form-select:focus {
   background-color: #1a1a1a;
   color: #fff;
@@ -43,7 +43,7 @@
   border-radius: 50%;
 }
 
-.form-section {
+main .form-section {
   background-color: transparent;
   border-radius: 8px;
   padding: 2rem;

@@ -1,28 +1,30 @@
-.form-control,
+.alt-form,
 .form-select {
-  background-color:#FFFFFF0F;
-  border: none;
-  color:#FFFFFF99;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 400;
+  background-color:#FFFFFF0F !important;
+  border: none !important;
+  color:#FFFFFF99 !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
 }
 
 .form-first-box::placeholder {
   color: #ffffff !important;
 }
 
-.form-control:focus {
-  background-color: #1f1f1f;
-  color: #fff;
-  border: none;
-  box-shadow: none;
+.alt-form:focus {
+  background-color: #1f1f1f !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
 }
+
 .section-title {
   padding: 20px 0;
   color: #052efd;
   font-weight: 600;
 }
+
 .section-subtitle {
   color: #ffffffb2;
 }

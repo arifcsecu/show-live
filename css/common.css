@@ -90,7 +90,7 @@ nav {
   color: #8a8a8a99 !important;
 }
 
-::placeholder {
+.search-wrapper > .form-control::placeholder {
   color: #ffffff4d !important;
   opacity: 1;
   font-size: 1rem;

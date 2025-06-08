@@ -3,21 +3,23 @@
   color: #052EFD !important;
 
 }
-.form-label {
+.label-1 {
   color: #FFFFFF;
   margin-bottom: 4px;
 }
-.form-control
+
+.label-2
 {
   background-color: transparent;
   border: 1px solid #FFFFFF !important;
   color: #FFFFFF80
 }
-.form-control::placeholder {
+
+.label-2::placeholder {
   color: #aaa;
 }
 
-.form-select {
+.label-3 {
   background-color: transparent;
   border: 1px solid #052EFD;
   color: #FFFFFF80
@@ -62,7 +64,7 @@
 .submit-btn {
   background-color: #052EFD;
   color: #FFFFFF;
-  width: 400px;;
+  max-width: 400px;;
   border-radius: 78px;
   padding: 10px 30px;
 }
