@@ -13,7 +13,7 @@
 <body class="d-flex flex-column h-100">
 
     <nav class="navbar navbar-expand-md d-none d-md-block d-flex align-content-center">
-        <div class="container-fluid container-xxl">
+        <div class="container-fluid container-xxl px-xxl-0">
 
             <!-- Logo -->
             <a class="navbar-brand" href="#">
@@ -28,10 +28,10 @@
             <!-- Navbar links and content -->
             <div class="collapse navbar-collapse " id="navbarContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#">Events</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#">About us</a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#">Contact us</a></li>
                 </ul>
 
                 <!-- Search -->
@@ -63,30 +63,47 @@
         <form class="d-flex me-3">
             <div class="search-wrapper">
                 <i class="bi bi-search ms-2"></i>
+
                 <input type="text" class="form-control form-control-sm" placeholder="Search by City, State, Zip">
-                <img src="assets/images/switchicon.png" height="24">
+
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img
+                            src="assets/images/switchicon.png" height="24"></button>
+
+                    <ul class="dropdown-menu me-auto mb-2">
+                        <li> <a class="dropdown-item text-white text-center" href="#">HOME</a></li>
+                        <li> <a class="dropdown-item text-white text-center" href="#">Events</a></li>
+                        <li> <a class="dropdown-item text-white text-center" href="#">About us</a></li>
+                        <li> <a class="dropdown-item text-white text-center" href="#">Contact us</a></li>
+
+                        <a href="#"
+                            class="d-flex justify-content-center align-items-center text-decoration-none text-white text-center pt-4">
+                            <img src="assets/images/user-pic.png" alt="Logo" height="30" width="30" class="me-1">
+                            <span class="ms-2 fw-semibold">Login</span>
+                        </a>
+                    </ul>
+                </div>
             </div>
         </form>
     </nav>
 
-   
-
     <footer class="d-none d-md-block text-white py-4 mt-auto">
-        <div class="container-fluid container-xxl">
+        <div class="container-fluid container-xxl px-xxl-0">
             <div class="d-flex flex-column flex-xxl-row align-items-center">
 
                 <!-- Social Icons -->
                 <div class="mb-3 mb-xxl-0">
-                    <div class="d-flex gap-3 mb-2">
-                        <a href="#"><i class="bi bi-facebook text-white fs-5"></i></a>
-                        <a href="#"><i class="bi bi-instagram text-white fs-5"></i></a>
-                        <a href="#"><i class="bi bi-whatsapp text-white fs-5"></i></a>
-                        <a href="#"><i class="bi bi-youtube text-white fs-5"></i></a>
+                    <div class="d-flex gap-3">
+                        <a href="#"><i class="bi bi-facebook icon-about text-white fs-5"></i></a>
+                        <a href="#"><i class="bi bi-instagram icon-about text-white fs-5"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp icon-about text-white fs-5"></i></a>
+                        <a href="#"><i class="bi bi-youtube icon-about text-white fs-5"></i></a>
                     </div>
                 </div>
 
                 <!-- Top Links -->
-                <div class="d-flex flex-column flex-grow-1 align-items-md-center text-center text-md-start mb-3 mb-xxl-0">
+                <div
+                    class="d-flex flex-column flex-grow-1 align-items-md-center text-center text-md-start mb-3 mb-xxl-0">
                     <!-- Top Links in one line -->
                     <div class="d-flex justify-content-center gap-3 text-nowrap fs-4 mb-2">
                         <a href="#" class="about-section-home text-decoration-none">About Us</a>
@@ -103,8 +120,7 @@
                 <!-- App Store Links -->
                 <div class="d-flex align-content-center">
 
-                    <a href="#"><img src="assets/images/appstore.png" alt="App Store" height="40"
-                            class="me-2"></a>
+                    <a href="#"><img src="assets/images/appstore.png" alt="App Store" height="40" class="me-2"></a>
                     <a href="#"><img src="assets/images/googleplay.png" alt="Google Play" height="40"></a>
 
                 </div>

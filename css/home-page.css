@@ -22,3 +22,25 @@
     border-radius: 5px;
   }
 }
+
+.btn-dark
+{
+  background-color: #06080b;
+  border-color: #06080b;
+}
+
+.btn-primary
+{
+  background-color: #052EFD;
+  border-color: #052EFD;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.ticket-headline
+{
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}

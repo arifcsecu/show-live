@@ -97,11 +97,24 @@ nav {
   font-weight: 300;
 }
 
+.dropdown-toggle::after {
+  display: none !important;
+  background-color: transparent !important;
+}
+
+.dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+}
+.dropdown-menu {
+  background-color: #292826 !important;
+}
+
 .mobile-footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #1f1f1f;
+  background-color: #181819 !important;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -118,14 +131,12 @@ footer {
   color: #ffffff !important;
 }
 
-.bi {
+.icon-about {
   max-width: 42px !important;
   max-height: 42px !important;
 }
 
-
-.about-section-home
-{
+.about-section-home {
   color: #ffffff !important;
   font-weight: 400 !important;
 }
