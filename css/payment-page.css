@@ -1,5 +1,5 @@
-.alt-form,
-.form-select {
+
+.payment-page.form-control {
   background-color:#FFFFFF0F !important;
   border: none !important;
   color:#FFFFFF99 !important;
@@ -8,11 +8,24 @@
   font-weight: 400 !important;
 }
 
-.form-first-box::placeholder {
+.payment-page.form-select {
+  background-color:#FFFFFF0F !important;
+  border: none !important;
+  color:#FFFFFF99 !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.payment-page.form-control::placeholder {
+  color: #FFFFFF99 !important;
+}
+
+.payment-page.form-control.first-box::placeholder {
   color: #ffffff !important;
 }
 
-.alt-form:focus {
+.payment-page.form-control:focus {
   background-color: #1f1f1f !important;
   color: #fff !important;
   border: none !important;
@@ -33,7 +46,7 @@
   background-color: #FFFFFF0F;
  
 }
-.card-text {
+.payment-page.form-label {
   color: #ffffff;
   font-size: 16px;
 }
