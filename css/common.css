@@ -54,7 +54,7 @@ nav {
 }
 
 @media screen and (max-width: 991.99px) {
-  .search-wrapper {
+  .common.search-wrapper {
     max-height: 42px !important;
     max-width: 300px !important;
     background-color: #292826;
@@ -67,7 +67,7 @@ nav {
 }
 
 @media screen and (min-width: 992px) {
-  .search-wrapper {
+  .common.search-wrapper {
     max-height: 42px !important;
     width: 300px !important;
     background-color: #292826;
@@ -79,45 +79,49 @@ nav {
   }
 }
 
-.search-wrapper input {
+.common.search-wrapper input {
   background-color: #292826;
   color: #ffffff4d !important;
   border: none;
   outline: none;
 }
 
-.search-wrapper i {
+.common.search-wrapper i {
   color: #8a8a8a99 !important;
 }
 
-.search-wrapper > .form-control::placeholder {
+.common.search-wrapper > .form-control::placeholder {
   color: #ffffff4d !important;
   opacity: 1;
   font-size: 1rem;
   font-weight: 300;
 }
 
-.input-control.form-control {
+.common.form-control {
   background-color: #292826 !important;
   color: #ffffff !important;
 }
 
-.input-control.form-control:focus {
+.common.form-control:focus {
   box-shadow: none;
 }
 
-.dropdown-toggle::after {
+.common.dropdown-toggle::after {
   display: none !important;
   background-color: transparent !important;
 }
 
-.dropdown-toggle {
+.common.dropdown-toggle {
   background-color: transparent !important;
   border: none !important;
 }
 
-.dropdown-menu {
+.dropdown-for-moblie.dropdown-menu {
   background-color: #292826 !important;
+}
+
+.common.dropdown-menu {
+  background-color: #1c1c1c !important;
 }
 
 .mobile-footer {
@@ -125,11 +129,9 @@ nav {
   left: 0;
   right: 0;
   background-color: #181819 !important;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
 
-.login-btn {
+.common.login-btn {
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -149,4 +151,15 @@ footer {
 .about-section-home {
   color: #ffffff !important;
   font-weight: 400 !important;
+}
+
+.common.text-primary {
+  color: #052efd !important;
+  font-weight: 500 !important;
+  font-size: 16px;
+}
+
+.common.dropdown-divider {
+  border-top: 1px solid #ffffff99;
+  margin: 0;
 }
