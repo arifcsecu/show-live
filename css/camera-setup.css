@@ -1,0 +1,83 @@
+.camera-setup.text-primary {
+  color: #052efd !important;
+}
+
+.camera-icon {
+  font-size: 32px;
+  color: #052efd;
+}
+.camera-label {
+  margin-top: 5px;
+  color: #052efd;
+}
+.camera-circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #052efd;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.camera-circle.active {
+  background-color: #052efd;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #052efd;
+  border: none;
+  color: white;
+  border-radius: 78px;
+  padding: 10px;
+}
+
+.submit-btn-width {
+  max-width: 400px;
+  margin: auto;
+}
+
+.pay-btn {
+  width: 100%;
+  background-color: #052efd;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.additional-fee {
+  max-width: 210px;
+}
+
+.camera-layout.form-control
+{
+  border: .5px solid #CACACB;
+}
+
+.rounded-box {
+  background-color: transparent !important;
+  max-width: 526px;
+  color: #FFFFFF99;
+}
+
+.highlight-section {
+  text-align: center;
+}
+
+.highlight-section .camera-icon {
+  font-size: 40px;
+}
+.tick-circle-1 {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
+.tick-circle-2 {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border: 2px solid #052EFD;
+  border-radius: 50%;
+  background-color: transparent;
+}
